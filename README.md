@@ -1,1 +1,1 @@
-# Physics-dictionary
+# The Physics Dictionary

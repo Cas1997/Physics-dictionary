@@ -7,7 +7,7 @@ from difflib import get_close_matches as gcm
 
 class Dictionary:
     def __init__(self):
-        self.file_name = "/home/cas/Programs/PhysicsDictionary/PhysicsDictionary.json"
+        self.file_name = "<YourPathHere>/PhysicsDictionary.json"
         self.data = json.load(open(self.file_name))
         self.tags = {"A":"Accelerator", "DE":"Detector & Experiments", "H":"Heavy Flavour", "P":"Photons", "L":"Leptons", "AM":"Anti-matter", "DM":"Dark Matter", "DC":"Detector Components", "CO":"CERN Office Terms", "I":"Institutes"}
 
